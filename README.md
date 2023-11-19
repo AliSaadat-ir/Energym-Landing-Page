@@ -4,4 +4,4 @@
 
 <hr>
 
-### [See Energym Landing Page](https://alisaadat-ir.github.io/Energym-Landing-Page/index.html)
+### [See Energym Landing Page](https://alisaadat-ir.github.io/Energym-Landing-Page/https://alisaadat-ir.github.io/Energym-Landing-Page/Landing-Page.html)
