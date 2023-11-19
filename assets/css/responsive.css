@@ -1,0 +1,141 @@
+/*============== mobile  ==================*/
+@media screen and (max-width: 992px) {
+  /*================================ header ================================*/
+  header .content {
+    flex-direction: column; }
+    header .content .desktop {
+      display: none; }
+  header .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  /*================================ intro ================================*/
+  #intro > div {
+    margin-top: 40px; }
+  #intro .mobile {
+    display: block; }
+  #intro .bg-image {
+    margin-bottom: -40px; }
+    #intro .bg-image .play-button {
+      width: 45px;
+      height: 45px;
+      padding: 5px;
+      padding-left: 8px; }
+      #intro .bg-image .play-button img {
+        width: 60%; }
+
+  /*================================ features ================================*/
+  #features {
+    margin-top: 105px; }
+    #features .feature {
+      padding: 8px 0px; }
+      #features .feature img {
+        width: 30%;
+        flex-shrink: 0; }
+    #features p {
+      color: #333;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+      /* 200% */ }
+
+  /*================================ exercises ================================*/
+  #exercises {
+    margin-top: 54px; }
+
+  .swiper {
+    height: 225px; }
+
+  /*================================ courses ================================*/
+  #courses {
+    margin-top: 64px; }
+    #courses .courses-title {
+      display: none; }
+    #courses .courses-detail .title-course > div h3 {
+      font-size: 16px;
+      font-weight: 600; }
+    #courses .courses-detail .title-course > div label {
+      padding: 6px 8px;
+      font-size: 12px;
+      font-weight: 400;
+      width: 90px; }
+    #courses .courses-detail .d-mobile {
+      display: block; }
+    #courses .courses-detail .row {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 16px; }
+      #courses .courses-detail .row > div {
+        margin-bottom: 18px;
+        margin-top: 12px; }
+    #courses .courses-detail .more-detail {
+      display: none; }
+      #courses .courses-detail .more-detail p {
+        font-size: 14px; }
+    #courses .courses-detail .show {
+      display: flex;
+      height: 100%; }
+    #courses .courses-detail .footer-card .link-buy {
+      display: none; }
+    #courses .courses-detail .footer-card .link-more-detail {
+      display: block; }
+    #courses .courses-detail .bg-image img {
+      border-radius: 10px; }
+
+  /*================================ faq ================================*/
+  #faq {
+    margin-top: 88px; }
+
+  /*================================ last-item ================================*/
+  #last-item {
+    margin-top: 60px;
+    padding: 1rem; }
+    #last-item .row {
+      flex-direction: column-reverse; }
+    #last-item .contactus {
+      margin-top: 1rem;
+      align-items: center; }
+      #last-item .contactus a {
+        width: 100%; }
+
+  /*================================ footer ================================*/
+  footer .container {
+    justify-content: center; } }
+@media screen and (max-width: 400px) {
+  #courses .courses-detail .title-course > div {
+    flex-direction: column-reverse;
+    gap: 1rem; }
+  #courses .courses-detail .footer-card {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem; }
+    #courses .courses-detail .footer-card .link-more-detail {
+      font-size: 16px; }
+
+  #faq .accordion-button {
+    font-size: 14px; }
+
+  #StickyMobile .Sticky {
+    flex-direction: column;
+    gap: 1rem; } }
+/*================================ Modals ================================*/
+@media (min-width: 576px) {
+  #MainVideoModal .modal-dialog {
+    max-width: 540px !important; } }
+@media (min-width: 768px) {
+  #MainVideoModal .modal-dialog {
+    max-width: 720px !important; } }
+@media (min-width: 992px) {
+  #MainVideoModal .modal-dialog {
+    max-width: 960px !important; } }
+@media (min-width: 1200px) {
+  #MainVideoModal .modal-dialog {
+    max-width: 1140px !important; } }
+@media (min-width: 1400px) {
+  #MainVideoModal .modal-dialog {
+    max-width: 1320px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */

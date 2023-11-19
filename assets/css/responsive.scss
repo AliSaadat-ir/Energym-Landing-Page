@@ -1,0 +1,215 @@
+/*============== mobile  ==================*/
+
+@media screen and (max-width: 992px) {
+  /*================================ header ================================*/
+  header{
+    .content{
+      flex-direction: column;
+      .desktop{
+        display: none;
+      }
+    }
+    .mobile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  /*================================ intro ================================*/
+  #intro{
+    > div{
+      margin-top: 40px;
+    }
+    .mobile{
+      display: block;
+    }
+    .bg-image{
+      margin-bottom: -40px;
+      .play-button{
+        width: 45px; 
+        height: 45px;
+        padding: 5px;
+        padding-left: 8px;
+        img{
+          width: 60%;
+        }
+      }
+    }
+  }
+  /*================================ features ================================*/
+  #features{
+    margin-top: 105px;
+    .feature{
+      padding: 8px 0px;
+      img{
+        width: 30%;
+        flex-shrink: 0;
+      }
+    }
+    p{
+      color: #333;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px; /* 200% */
+    }
+  }
+
+  /*================================ exercises ================================*/
+  #exercises{
+    margin-top: 54px;
+  }
+  .swiper {
+    height: 225px;
+  }
+
+  /*================================ courses ================================*/
+  #courses{
+    margin-top: 64px;
+    .courses-title{
+      display: none;
+    }
+    .courses-detail{
+      .title-course{
+        > div{
+          h3{
+            font-size: 16px;
+            font-weight: 600;
+          }
+          label{
+            padding: 6px 8px;
+            font-size: 12px;
+            font-weight: 400;
+            width: 90px;
+          }
+        }
+      }
+
+      .d-mobile{
+        display: block;
+      }
+      .row{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 16px;
+        > div{
+          margin-bottom:18px;
+          margin-top: 12px;
+        }
+      }
+      .more-detail{
+        display: none;
+        p{
+          font-size: 14px;
+        }
+      }
+      .show{
+        display: flex;
+        height: 100%;
+      }
+      .footer-card{
+        .link-buy{
+          display: none;
+        }
+        .link-more-detail{
+          display: block;
+        }
+      }
+      .bg-image{
+        img{
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  /*================================ faq ================================*/
+  #faq{
+    margin-top: 88px;
+  }
+  /*================================ last-item ================================*/
+  #last-item{
+    margin-top: 60px;
+    padding: 1rem;
+    .row{
+      flex-direction: column-reverse;
+    }
+    .contactus{
+      margin-top: 1rem;
+      align-items: center;
+      a{
+        width: 100%;
+      }
+    }
+  }
+  /*================================ footer ================================*/
+  footer{
+    .container{
+      justify-content: center;
+    }
+  }
+}  
+
+@media screen and (max-width: 400px) {
+  // #courses .courses-detail .title-course > div
+
+  #courses{
+    .courses-detail{
+      .title-course > div{
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .footer-card{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+        .link-more-detail{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  #faq {
+    .accordion-button{
+      font-size: 14px;
+    }
+  }
+  #StickyMobile{
+    .Sticky{
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+}
+
+/*================================ Modals ================================*/
+// reSet container modal for #MainVideoModal
+#MainVideoModal{
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 540px !important;
+    }
+}
+@media (min-width: 768px){
+    .modal-dialog{
+        max-width: 720px !important;
+    }
+}
+@media (min-width: 992px){
+    .modal-dialog{
+        max-width: 960px !important;
+    }
+}
+@media (min-width: 1200px){
+    .modal-dialog{
+        max-width: 1140px !important;
+    }
+}
+@media (min-width: 1400px){
+    .modal-dialog{
+        max-width: 1320px !important;
+    }
+}
+}
+
